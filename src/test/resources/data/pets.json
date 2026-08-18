@@ -1,0 +1,15 @@
+{
+  "template": {
+    "category": { "id": 1, "name": "dogs" },
+    "photoUrls": ["https://example.com/photo.jpg"],
+    "tags": [{ "id": 1, "name": "automation"}],
+    "status": "available"
+  },
+  "name_prefix": "AutoPet",
+  "malformed_bodies": [
+    "{\"name\": \"AutoPet-Broken\", \"status\":}",
+    "{\"name\": \"AutoPet-Broken\"",
+    "not json at all"
+  ],
+  "order_quantities": [1, 3, 10]
+}

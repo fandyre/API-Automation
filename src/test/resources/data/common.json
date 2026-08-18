@@ -1,0 +1,28 @@
+{
+  "valid_statuses": [
+    "available",
+    "pending",
+    "sold"
+  ],
+  "invalid_statuses": [
+    "notARealStatus",
+    "AVAILABLE",
+    "123",
+    ""
+  ],
+  "unknown_pet_ids": [
+    999999999912,
+    999999999913
+  ],
+  "unknown_order_ids": [
+    999999999,
+    888888888
+  ],
+  "non_numeric_ids": [
+    "not-a-number",
+    "abc"
+  ],
+  "expected_error_type": "error",
+  "pet_not_found_message": "Pet not found",
+  "order_not_found_message": "Order not found"
+}
