@@ -164,4 +164,10 @@ public abstract class BaseTest {
         return order;
     }
 
+    protected Map<String, Object> newUploadBody(String additionalMetadata, String filePath){
+        Map<String, Object> body = new HashMap<>();
+        body.put("additionalMetadata", additionalMetadata);
+        body.put("file", filePath);
+        return body;
+    }
 }
